@@ -20,3 +20,19 @@ html,
 .pokemon-img{
     width: 100%;
 }
+.pokemon-title{
+    font-size: 1.2rem;
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    background-color: brown;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading{
+    font-size: 5rem;
+    text-align: center;
+}
