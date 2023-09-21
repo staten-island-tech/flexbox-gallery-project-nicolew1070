@@ -1,11 +1,9 @@
-body,
-html,
-*{
+body {
     font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
+    background-color: rgb(110, 184, 187);
 }
 .pokemon{
     height: 50vh;
@@ -16,23 +14,32 @@ html,
     align-items: center;
     justify-content: space-around;
     margin: 2.5rem 0;
+    border-radius: 6px;
 }
 .pokemon-img{
     width: 100%;
 }
 .pokemon-title{
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: blue;
 }
 .layout{
     display: flex;
     flex-wrap: wrap;
-    width: 80vw;
-    background-color: brown;
+    width: 92vw;
     margin: 1rem auto;
     align-items: center;
     justify-content: space-around;
 }
 .heading{
-    font-size: 5rem;
+    font-size: 2.5rem;
     text-align: center;
+    padding: 5px;
+    font-family: 'Hind', sans-serif;
+    background-color: dodgerblue;
+    width: 50vw;
+}
+
+#pokemon-title-heading{
+    color: red;
 }
