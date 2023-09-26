@@ -18,16 +18,21 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 4.5rem 0;
+    margin: 6rem 0;
     border-radius: 1rem;
     border: 1.5rem solid #74c69d;
     box-shadow: 1rem 1rem 0.5rem #40916c;
+    transition: all 0.3s;
+}
+.pokemon:hover{
+    background-color: #95d5b2;
 }
 .pokemon-img{
-    width: 100%;
+    width: 85%;
 }
 .pokemon-title{
     font-family: 'Hind', sans-serif;
+    text-align: center;
     font-weight: normal;
     font-size: 3rem;
     color: #40916c
@@ -41,14 +46,12 @@ body{
     justify-content: space-between;
 }
 
-.pokemon-title-heading{
-    color: #40916c;
+#pokemon-title-heading{
     background-color: #74c69d;
-    text-align: center;
-    font-family: 'Hind', sans-serif;
     font-size: 6rem;
-    margin: 3rem 40rem;
+    margin: 5rem 40rem;
     border-radius: 1rem;
+    box-shadow: 1rem 1rem 0.5rem #40916c;
 }
 
 p{
