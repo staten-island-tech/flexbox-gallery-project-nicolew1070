@@ -81,5 +81,17 @@ a:hover::before {
 p{
     font-family: 'Hind', sans-serif;
     font-size: 1.5rem;
-    color: #40916c
+    color: #40916c  
+}
+
+@media screen and (max-width: 900px) {
+    .pokemon{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pokemon{
+        width: 100%;
+    }
 }
