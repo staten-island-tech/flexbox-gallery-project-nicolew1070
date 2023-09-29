@@ -58,7 +58,6 @@ a {
 .pokemon {
     height: 40vh;
     width: 23%;
-    /*dont change*/
     background-color: #b7e4c7;
     display: flex;
     flex-direction: column;
