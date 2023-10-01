@@ -95,7 +95,6 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-
 #pokemon-title-heading {
     background-color: #74c69d;
     font-size: 6rem;
@@ -106,20 +105,24 @@ a {
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
 @keyframes animation {
     0%   {background-color:#74c69d;}
   50%  {background-color: #b7e4c7;}
   100%  {background-color:  #74c69d;}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
     .pokemon {
         width: 40%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .pokemon {
         width: 100%;
+    }
+    #pokemon-title-heading{
+        margin: 5rem 2rem;
     }
 }
