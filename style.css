@@ -118,9 +118,9 @@ a {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     .pokemon {
-        width: 100%;
+        width: 60%;
     }
     #pokemon-title-heading{
         margin: 5rem 2rem;
