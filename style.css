@@ -112,16 +112,16 @@ a {
   100%  {background-color:  #74c69d;}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
     .pokemon {
-        width: 40%;
+        width: 45%;
     }
     #pokemon-title-heading{
         margin: 5rem 2rem;
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
     .pokemon {
         width: 100%;
     }
