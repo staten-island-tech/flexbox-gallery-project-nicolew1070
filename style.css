@@ -125,4 +125,10 @@ a {
     .pokemon {
         width: 100%;
     }
+    .pokemon-img{
+        width: 65%;
+    }
+    .button{
+        font-size: 1.2rem;
+    }
 }
